@@ -1,0 +1,125 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-weight: normal;
+}
+
+#wrapper {
+  width: 90%;
+  max-width: 960px;
+  margin: 1rem auto;
+  border-radius: 0.4rem;
+  box-shadow: 0 1px 6px #44444470;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+}
+
+#page-banner {
+  background: #eee;
+  padding: 10px 0;
+}
+
+#page-banner h1,
+#page-banner p {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#page-banner input {
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #444;
+}
+
+#book-list,
+#add-book {
+  margin: 2rem;
+}
+
+#book-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#book-list li {
+  padding: 20px;
+  border-left: 5px solid #ddd;
+  margin: 20px 2px;
+}
+
+#book-list li:hover {
+  border-color: #cd212290;
+}
+
+.delete {
+  float: right;
+  background: #cd212290;
+  padding: 0.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete:hover {
+  background: #cd2122;
+}
+
+#add-book {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#add-book input {
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+  clear: both;
+}
+#add-book button {
+  border: 1px solid #cd212290;
+  border-radius: 0 4px 4px 0;
+  background: #cd212290;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100px;
+  float: left;
+  margin: 20px 0;
+  border-left: 0;
+}
+
+#add-book #hide {
+  width: 2rem;
+}
+
+#add-book label {
+  line-height: 3.4rem;
+}
+
+.info {
+  display: none;
+  border: 1px solid rgb(160, 156, 156);
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-left: 5px;
+}

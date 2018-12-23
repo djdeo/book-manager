@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Book Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="page-banner">
+          <h1 class="title">Book Manager</h1>
+          <p>Add, Search and Delete book</p>
+          <form id="search-books">
+            <input type="text" placeholder="Search books..." />
+          </form>
+        </div>
+      </header>
+      <p class="info"></p>
+
+      <div id="book-list">
+        <h2 class="title">Books to read:</h2>
+        <ul>
+          <li>
+            <span class="name">Name of the Wind</span
+            ><span class="delete">delete</span>
+          </li>
+          <li>
+            <span class="name">The Wise Man's Fear</span
+            ><span class="delete">delete</span>
+          </li>
+          <li>
+            <span class="name">The history of everything</span
+            ><span class="delete">delete</span>
+          </li>
+        </ul>
+      </div>
+
+      <form id="add-book">
+        <input type="checkbox" id="hide" />
+        <label for="hide">Hide all books</label>
+        <input type="text" placeholder="Add a book..." /> <button>ADD</button>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
